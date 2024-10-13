@@ -1,0 +1,888 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@330&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body{
+    background: url(../img/fon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    font-family: 'Poppins';
+    padding: 0;
+    margin: 0;
+}
+
+.heading{
+    line-height: 20px;
+    padding-top: 115px;
+    display: block;
+    margin: 0 auto;
+    max-width: max-content; 
+}
+
+.heading a{
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 59px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.heading a span{
+    font-weight: 330;
+    font-size: 14.5px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.menyu{
+    margin: auto;
+    margin-top: 55px;
+    max-width: 74.2%;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    display: block;
+    padding: 0;
+}
+
+.nkar1{
+    max-width: 100%;
+    background: black;
+}
+
+.nkar1 > img{
+    max-width: 100%;
+    display: block;
+}
+
+.spitak{
+    background: #fff;
+    max-width: 100%;
+    max-height: 1700px;
+    display: block;
+}
+
+.vernagir{
+    margin: auto;
+    text-align: center;
+    padding-top: 55px;
+    position: relative;
+    color: #1e1f23f8;
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.vernagir::after{
+    content: '';
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.125);
+}
+
+.text2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 10.5px;
+    letter-spacing: .25rem;
+    color: #bbb;
+    margin: 0;
+    margin-top: -5px;
+}
+
+.text{
+    line-height: 60px;
+}
+
+.moxraguyn{
+    margin-top: 40px;
+    background: #a5a2a21a;
+    max-width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 23px;
+    padding-bottom: 60px;
+}
+
+.moxraguyn > p{
+    display: block;
+    color: black;
+    opacity: 0.3;
+    font-size: 14.5px;
+}
+
+.text3{
+    padding: 90px;
+    font-weight: none;
+}
+
+.text4{
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-top: -70px;
+    display: block;
+}
+
+.sev{
+    background: #1E1F23;
+    width: 100%;
+    display: block;
+}
+
+.border{
+    position: relative;
+    width: 85%;
+    height: auto;
+    display: block;
+    padding: 0;
+    margin: auto;
+    padding: 85px 0px;
+}
+
+.fon{
+    background: #121315;
+    width: 100%;
+    height: 145px;
+    margin: auto;
+    display: block;
+    border-top-left-radius: 3.5px;
+    border-top-right-radius: 3.5px;
+}
+
+.fon > .vernagir{
+    color: #FFFFFF;
+    font-size: 26px;
+    line-height: 40px;
+    padding-top: 30px;
+    display: block;
+}
+
+.gic{
+    margin: auto;
+    margin-top: 10px;
+    width: 100px;
+    height: 1px;
+    background-color: #303132;
+}
+
+.fon > .text2{
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 11.5px;
+    letter-spacing: .25rem;
+    color: #464749;
+}
+
+.border .albom > img{
+    max-width: 50%;
+    display: inline-block;
+    margin-left: -0.36em;
+    margin-top: -0.40em;
+}
+
+.albom2 .div1{
+    display: inline-block;
+    max-width: 50%;
+}
+
+.albom2 .div1 > img{
+    max-width: 100%;
+    height: 440px;
+}
+
+.arajindiv{
+    position: relative;
+    background: #F4F4F4;
+    width: 100%;
+    height: 440px;
+    margin-left: -0.36em;
+}
+
+.arajindiv .divitext{
+    position: absolute;
+    top: 22%;
+    left: 22%;
+    right: 5.5%;
+    height: 100%;
+    transform: translate(-10%, 10%);
+}
+
+.divitext .vernagir1{
+    color: #1e1f23f8;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0;
+    text-align: start;
+}
+
+.divitext .text5{
+    text-align: start;
+    font-size: 15px;
+    opacity: 0.4;
+}
+
+.ekrorddiv{
+    position: relative;
+    background: #1E1F23;
+    width: 100%;
+    min-height: 440px;
+}
+
+.ekrorddiv .divitext{
+    position: absolute;
+    top: 22%;
+    left: 22%;
+    right: 5.5%;
+    transform: translate(-10%, 10%);
+}
+
+.picture2{
+    margin-left: -0.28em;
+    max-width: 100%;
+    height: 100%;
+}
+
+.formargin{
+    height: 100%;
+    margin-top: -0.46em;
+}
+
+.ekrorddiv > .divitext .vernagir1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0;
+    text-align: end;
+}
+
+.ekrorddiv > .divitext .text5{
+    text-align: end;
+    color: #fff;
+    font-size: 15px;
+    opacity: 0.2;
+}
+
+.errorddiv{
+    position: relative;
+    background: #F4F4F4;
+    width: 100%;
+    height: 440px;
+    margin-left: -0.36em;
+}
+
+.errorddiv .divitext{
+    position: absolute;
+    top: 22%;
+    left: 22%;
+    right: 5.5%;
+    transform: translate(-10%, 10%);
+}
+
+.errorddiv > .divitext .vernagir1{
+    color: #1e1f23f8;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0;
+    text-align: start;
+}
+
+.errorddiv > .divitext .text5{
+    text-align: start;
+    font-size: 15px;
+    opacity: 0.4;
+}
+
+.icons{
+    display: block;
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 7px;
+    padding-top: 110px;
+    padding-bottom: 15px;
+}
+
+.icons > a{
+    text-decoration: none;
+}
+
+.text6{
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 15px;
+}
+
+.text6 p > a{
+    opacity: 1;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.text6 p > a:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width: 1500px){
+    .menyu{
+       max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 1430px){
+    .menyu{
+       max-width: 85%;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .menyu{
+       max-width: 87%;
+    }
+}
+
+@media screen and (max-width: 1280px){
+
+    .heading{
+        padding: 97px;
+    }
+
+    .menyu{
+       max-width: 90%;
+       margin-top: -39px;
+       padding: 0;
+    }
+
+    .text3{
+        padding: 70px 70px 90px 68px;
+    }
+
+    .text4{
+        padding: 0px 70px 0px 68px;
+    }
+
+    .border{
+        width: 90%;
+        padding: 55px 0;
+    }
+
+    .arajindiv .divitext{
+        position: absolute;
+        top: 22%;
+        left: 14%;
+        right: 2%;
+        transform: translate(-5%, 10%);
+    }
+
+    .ekrorddiv .divitext{
+        position: absolute;
+        top: 22%;
+        left: 14%;
+        right: 2%;
+        transform: translate(-5%, 10%);
+    }
+
+    .errorddiv .divitext{
+        position: absolute;
+        top: 22%;
+        left: 14%;
+        right: 2%;
+        transform: translate(-5%, 10%);
+    }
+
+    .icons{
+        display: block;
+        text-align: center;
+        font-size: 26px;
+        letter-spacing: 7px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 980px) {
+    
+    body{
+        background-size: contain;
+        background-position: 0% 0%;
+        height: 100%;
+        background-color: #1E1F23;
+    }
+
+    .menyu{
+        max-width: 90%;
+    }
+
+    .heading{
+        padding: 97px;
+    }
+
+    .heading a{
+        font-size: 65px;
+    }
+
+    .heading a span{
+        font-size: 16px;
+    }
+
+    .menyu{
+        margin-top: -39px;
+        padding: 0;
+    }
+    
+    .vernagir{
+        padding-top: 38px;
+        font-size: 28px;
+    }
+
+    .text2{
+        font-size: 12.5px;
+    }
+
+    .moxraguyn{
+        margin-top: 38px;
+    }
+
+    .moxraguyn > p{
+        font-size: 16.5px;
+        font-weight: none;
+        line-height: 25px;
+    }
+
+    .border{
+        width: 85%;
+    }
+
+    .fon > .vernagir{
+        font-size: 28px;
+    }
+
+    .gic{
+        margin: auto;
+        margin-top: 10px;
+        width: 70px;
+        height: 1px;
+        background-color: #303132;
+    }
+
+    .fon > .text2{
+        font-size: 13.2px;
+    }
+
+    .border .albom > img{
+        max-width: 100%;
+        width: 100%;
+        display: block;
+        margin-top: -0.40em;
+        margin-left: 0;
+    }
+
+    .albom2 .div1{
+        display: block;
+        max-width: 100%;
+    }
+    
+    .albom2 .div1 > img{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    
+    .arajindiv{
+        padding-top: 100px;
+        padding-bottom: 150px;
+        height: 0;
+        margin-left: 0;
+        margin-top: -0.42em;
+    }
+    
+    .arajindiv .divitext{
+        display: block;
+        line-height: 23px;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        right: 3%;
+        transform: translate(-5%, 10%);
+    }
+    
+    .arajindiv .divitext .vernagir1{
+        color: #1e1f23f8;
+        font-weight: 700;
+        font-size: 22px;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .arajindiv .divitext .text5{
+        opacity: 0.4;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    .ekrorddiv{
+        position: relative;
+        background: #1E1F23;
+        width: 100%;
+        min-height: 250px;
+    }
+    
+    .ekrorddiv .divitext{
+        position: absolute;
+        top: 10%;
+        left: 15%;
+        right: 4%;
+        transform: translate(-10%, 10%);
+    }
+    
+    .picture2{
+        margin-left: 0;
+        max-width: 100%;
+        height: 100%;
+    }
+    
+    .formargin{
+        height: 100%;
+        margin-top: -0.46em;
+    }
+    
+    .ekrorddiv > .divitext .vernagir1{
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 25px;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .ekrorddiv > .divitext .text5{
+        text-align: center;
+        color: #fff;
+        font-size: 15px;
+        opacity: 0.2;
+        line-height: 25px;
+    }
+    
+    .errorddiv{
+        position: relative;
+        background: #F4F4F4;
+        width: 100%;
+        height: 250px;
+        margin-left: 0;
+        margin-top: -0.41em;
+    }
+    
+    .errorddiv .divitext{
+        position: absolute;
+        top: 10%;
+        left: 15%;
+        right: 4%;
+        transform: translate(-10%, 10%);
+    }
+    
+    .errorddiv > .divitext .vernagir1{
+        color: #1e1f23f8;
+        font-weight: 700;
+        font-size: 22px;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .errorddiv > .divitext .text5{
+        opacity: 0.4;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+}
+   @media screen and (max-width:736px){
+
+.heading a{
+    font-size: 48px;
+}
+
+.menyu{
+   margin-top: -61px;
+}
+
+.vernagir{
+        font-size: 24px;
+    }
+    
+.vernagir::after{
+        width: 46%;
+    }
+    
+.moxraguyn{
+    padding-bottom: 20px;
+   }
+
+.text3{
+    padding: 30px 30px 0 30px;
+    font-weight: none;
+  }
+
+.text4{
+    padding: 90px 30px 0px 30px;
+    display: block;
+  }
+
+.border{
+    position: relative;
+    width: 90%;
+    height: auto;
+    display: block;
+    padding: 0;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.fon > .vernagir{
+    color: #FFFFFF;
+    font-size: 25px;
+    line-height: 40px;
+    padding-top: 30px;
+    display: block;
+}
+
+.gic{
+    margin: auto;
+    margin-top: 10px;
+    width: 280px;
+    height: 1px;
+    background-color: #303132;
+}
+
+.arajindiv{
+    display: block;
+    position: relative;
+    background: #F4F4F4;
+    max-width: 100%;
+    max-height: 200px;
+    margin-left: 0;
+    margin-top: -0.40em;
+    z-index: 2;
+}
+
+.arajindiv .divitext{
+    position: absolute;
+    top: 14%;
+    left: 15%;
+    right: 3.5%;
+    transform: translate(-8%, -10%);
+    height: 100%;
+    max-width: 100%;
+}
+
+.arajindiv .divitext .vernagir1{
+    color: #1e1f23f8;
+    font-weight: 700;
+    font-size: 23px;
+    padding: 0;
+    text-align: center;
+}
+
+.arajindiv .divitext .text5{
+    opacity: 0.4;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.ekrorddiv{
+  min-height: 230px;
+}
+
+.ekrorddiv .divitext{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    right: 0%;
+    transform: translate(-10%, -10%);
+}
+
+.picture2{
+    margin-left: 0;
+    max-width: 100%;
+    height: 100%;
+}
+
+.formargin{
+    height: 100%;
+    margin-top: -0.46em;
+}
+
+.ekrorddiv > .divitext .vernagir1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 0;
+    text-align: center;
+}
+
+.ekrorddiv > .divitext .text5{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    opacity: 0.2;
+    line-height: 25px;
+}
+
+.errorddiv{
+    margin-top: -0.42em;
+}
+
+.errorddiv .divitext{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    right: 3%;
+    transform: translate(-5%, 0%);
+}
+
+
+.errorddiv > .divitext .vernagir1{
+    color: #1e1f23f8;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 0;
+    text-align: center;
+}
+
+.errorddiv > .divitext .text5{
+    opacity: 0.4;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+}
+
+@media screen and (max-width:561px){
+    .arajindiv{
+         height: 100px;
+    }
+    
+    .arajindiv .divitext{
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        right: 3.5%;
+        transform: translate(-8%, -10%);
+        height: 100%;
+        max-width: 100%;
+    }
+
+    .ekrorddiv{
+        height: 300px;
+      }
+      
+      .ekrorddiv .divitext{
+          position: absolute;
+          top: 10%;
+          left: 15%;
+          right: 0%;
+          transform: translate(-10%, -10%);
+      }
+
+      .errorddiv{
+        height: 300px;
+        margin-top: -0.42em;
+    }
+    
+    .errorddiv .divitext{
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        right: 3%;
+        transform: translate(-5%, 0%);
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .arajindiv .divitext{
+        position: absolute;
+        top: 15%;
+        left: 15%;
+        right: 3.5%;
+        transform: translate(-8%, -10%);
+        height: 100%;
+        max-width: 100%;
+    }
+
+    .heading a{
+        display: block;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 40px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    
+.vernagir{
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    position: relative;
+    color: #1e1f23f8;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 10px;
+    letter-spacing: .20rem;
+    color: #bbb;
+    margin: 0;
+    margin-top: -5px;
+}
+
+.fon > .vernagir{
+    color: #FFFFFF;
+    font-size: 22px;
+    line-height: 40px;
+    padding-top: 30px;
+    display: block;
+}
+
+.gic{
+    margin: auto;
+    margin-top: 10px;
+    width: 70px;
+    height: 1px;
+    background-color: #303132;
+}
+
+.fon > .text2{
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: .25rem;
+    color: #464749;
+}
+
+}
+
+
